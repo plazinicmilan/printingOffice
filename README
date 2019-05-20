@@ -1,0 +1,7 @@
+dodate instalacije: (runAs - mavenBuild)
+install:install-file  -Dfile=lib/sqljdbc42.jar -DgroupId=com.microsoft.sqlserver -DartifactId=mssql-jdbc -Dversion=4.2.0 -Dpackaging=jar
+install:install-file  -Dfile=lib/jasperreports-functions-6.7.0.jar -DgroupId=net.sf.jasperreports -DartifactId=jasperreports-functions -Dversion=6.7.0 -Dpackaging=jar
+
+dodas rucno dependency u pom.xml
+
+update (alt + f5)
